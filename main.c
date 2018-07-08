@@ -13,6 +13,9 @@ int main()
  printf("Die 1:%d\n", rand_num1);
  printf("Die 2:%d\n", rand_num2);
  printf("Total value: %d\n",rand_num1+rand_num2);
-
+ if(rand_num1+rand_num2 > 7){
+	 printf("You won");
+ }
+ else printf("You lose");
  return 0;
 }
